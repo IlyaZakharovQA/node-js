@@ -1,11 +1,30 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "eslint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Ilya",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlyaZakharovQA/node-js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "bugs": {
+    "url": "https://github.com/IlyaZakharovQA/node-js/issues"
+  },
+  "homepage": "https://github.com/IlyaZakharovQA/node-js#readme",
+  "description": "",
+  "dependencies": {
+    "eslint": "7.1.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-unicorn": "^47.0.0"
+  }
 }
